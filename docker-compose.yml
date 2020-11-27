@@ -1,0 +1,7 @@
+version: "3"
+services:
+  dckr:
+    build:
+      context: .
+      args:
+        RUNNER: "docker compose"
