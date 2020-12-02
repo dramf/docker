@@ -2,6 +2,8 @@ FROM alpine:latest
 
 ARG RUNNER
 
+MAINTAINER dramf <dramf@mail.ru>
+
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
